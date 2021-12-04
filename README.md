@@ -1,2 +1,1 @@
-# wzzlphb
-王者战力小程序源码，王者战力接口，微信小程序王者战力，王者荣耀战力小程序。
+# WZZLPHB King Battle Effectiveness Small program source code, King Battle Effectiveness Interface, wechat small program King Battle Effectiveness, King Glory Battle Effectiveness Small program.
