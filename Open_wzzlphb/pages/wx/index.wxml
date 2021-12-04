@@ -1,0 +1,53 @@
+
+<!-- 技术支持QQ565897782 -->
+
+<view class="text-center bg-white">
+    <swiper autoplay="true" circular="true" class="card-swiper round-dot" duration="500" indicatorActiveColor="#0081ff" indicatorColor="#8799a3" indicatorDots="true" interval="5000">
+        <swiper-item wx:for="{{swiperList}}" wx:key="item">
+            <view class="swiper-item">
+                <image mode="aspectFill" src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+                <video autoplay loop muted controls="{{false}}" objectFit="cover" showPlayBtn="{{false}}" src="{{item.url}}" wx:if="{{item.type=='video'}}"></video>
+            </view>
+        </swiper-item>
+    </swiper>
+    <view>
+        <view class="cu-bar justify-center">
+            <view class="action sub-title">
+                <text class="text-xl text-bold text-blue">WX区英雄列表</text>
+                <text class="bg-blue" style="width:5rem"></text>
+            </view>
+        </view>
+        <view class="cu-list grid col-3">
+            <view bindtap="findHero" class="heroDiv" data-hero="{{item.cname}}" wx:for="{{herolist}}" wx:key="item">
+                <image class="heroImg" src="{{item.iconUrl}}"></image>
+                <text>{{item.cname}}</text>
+            </view>
+        </view>
+    </view>
+    <!-- 广告id -->
+    <ad unitId="adunit-2c493ca75babd603"></ad>
+    <view class="cu-modal {{showModel?'show':''}}">
+        <view class="cu-dialog">
+            <view class="cu-bar bg-white justify-end">
+                <view class="content">{{heroInfo.alias}}</view>
+                <view bindtap="hideModal" class="action">
+                    <text class="cuIcon-close text-red"></text>
+                </view>
+            </view>
+            <view class="padding-xl text-left">
+                <view>最低县标：{{heroInfo.area}}（{{heroInfo.areaPower}}）</view>
+                <view>最低市标：{{heroInfo.city}}（{{heroInfo.cityPower}}）</view>
+                <view>最低省标：{{heroInfo.province}}（{{heroInfo.provincePower}}）</view>
+                <view>更新时间：{{heroInfo.updatetime}}</view>
+            </view>
+            <ad-custom unitId="adunit-36e573182e6eb23a"></ad-custom>
+            <view class="cu-bar justify-center">
+                <view class="action">
+                    <button bindtap="hideModal" class="cu-btn bg-green">确定</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 技术支持QQ565897782 -->

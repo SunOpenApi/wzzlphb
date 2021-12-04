@@ -1,0 +1,25 @@
+
+<!-- 技术支持QQ565897782 -->
+
+<view class="testList">
+    <view>
+    <!-- 广告id -->
+        <ad unitId="adunit-2c493ca75babd603"></ad>
+    </view>
+    <navigator>
+        <view class="item">
+            <view class="icon hot">热门</view>
+            <image src="https://api.cxkf.cc/wxxcx/kh/wangzhe/img/lxwm.jpg"></image>
+            <view class="content">
+                <view class="t">联系客服</view>
+                <view class="p">更多疑问建议咨询点这里</view>
+            </view>
+            <button bindcontact="handleContact" openType="contact">去联系</button>
+        </view>
+    </navigator>
+</view>
+<button class="share" openType="share" style="position:fixed;right:0rpx;bottom:80rpx;width:80rpx;height:80rpx;padding:0;border-radius:0;">
+    <image mode="aspectFit" src="../../images/shareFriends.png" style="width:80rpx;height:80rpx;"></image>
+</button>
+
+<!-- 技术支持QQ565897782 -->

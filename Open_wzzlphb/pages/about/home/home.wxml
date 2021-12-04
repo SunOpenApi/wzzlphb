@@ -1,0 +1,44 @@
+
+<!-- 技术支持QQ565897782 -->
+
+<scroll-view scrollY class="scrollPage">
+    <view class="UCenter-bg">
+        <view class="flex justify-center">
+            <view class="text-center">
+                <view class="cu-avatar xl round solids" style="width: 130rpx;height: 130rpx;overflow: hidden;">
+                    <open-data type="userAvatarUrl"></open-data>
+                </view>
+                <view class="padding">
+                    <open-data type="userNickName"></open-data>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+        <view class="cu-item arrow">
+            <navigator class="content" hoverClass="none" url="/pages/about/introduce/introduce">
+                <text class="cuIcon-formfill text-green"></text>
+                <text class="text-grey">	对接说明</text>
+            </navigator>
+        </view>
+        <view class="cu-item arrow">
+            <navigator class="content" hoverClass="none" url="/pages/about/log/log">
+                <text class="cuIcon-formfill text-green"></text>
+                <text class="text-grey">	更新日志</text>
+            </navigator>
+        </view>
+
+        <view class="cu-item arrow">
+            <navigator class="content" target="miniProgram" open-type="navigate" app-id="wx29eb1ff31be1ae9e" path="pages/ranking/index" extra-data="" version="release">
+                <text class="cuIcon-game text-red"></text>
+                <text class="text-grey">	 王者战力排行榜</text>
+            </navigator>
+        </view>
+        <view></view>
+        <view>
+            <ad adTheme="white" adType="video" unitId="adunit-52d87f5a1bbb50e6"></ad>
+        </view>
+    </view>
+</scroll-view>
+
+<!-- 技术支持QQ565897782 -->

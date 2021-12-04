@@ -1,0 +1,56 @@
+
+<!-- 技术支持QQ565897782 -->
+
+<view class="padding text-center">
+    <view class="padding-xl radius shadow-blur bg-green margin-top bg-img">
+        <view class="text-xl">功能介绍</view>
+    </view>
+</view>
+<view>
+    <view class="cu-bar">
+        <view class="action">
+            <text class="cuIcon-titles text-green"></text>
+            <text class="text-xl text-bold">1、为什么选择我？</text>
+        </view>
+    </view>
+    <view class="padding">
+        <view class="padding-xl radius shadow bg-white">
+            <text>喜欢就用，没有任何理由</text>
+        </view>
+        <view>
+        <!-- 广告id -->
+            <ad unitId="adunit-2c493ca75babd603"></ad>
+        </view>
+    </view>
+</view>
+<view>
+    <view class="cu-bar">
+        <view class="action">
+            <text class="cuIcon-titles text-green"></text>
+            <text class="text-xl text-bold">2、免费对接公众号</text>
+        </view>
+    </view>
+    <view class="padding">
+        <view class="padding-xl radius shadow bg-white">
+            <text>小程序ID：wx29eb1ff31be1ae9e
+</text>
+			如下图所示(点图片可放大)，进行第四步的时候，输入上述ID即可，然后你就可以在你的公众号使用本小程序啦！
+			<image bindtap="previewImage" data-src="https://api.cxkf.cc/wxxcx/kh/wangzhe/img/dj.jpg" mode="widthFix" src="https://api.cxkf.cc/wxxcx/kh/wangzhe/img/dj.jpg"></image>
+        </view>
+    </view>
+</view>
+<view>
+    <view class="cu-bar">
+        <view class="action">
+            <text class="cuIcon-titles text-green"></text>
+            <text class="text-xl text-bold">3、注意事项</text>
+        </view>
+    </view>
+    <view class="padding">
+        <view class="padding-xl radius shadow bg-white">
+			免费使用，多多分享才是我们维护的动力
+		</view>
+    </view>
+</view>
+
+<!-- 技术支持QQ565897782 -->

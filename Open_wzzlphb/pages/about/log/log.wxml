@@ -1,0 +1,90 @@
+
+<!-- 技术支持QQ565897782 -->
+
+<view class="cu-timeline">
+    <view class="cu-item text-green">
+        <view>
+        <!-- 广告id -->
+            <ad unitId="adunit-2c493ca75babd603"></ad>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.6</view>
+                <view class="cu-tag line-white">2021/04/19</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、去除登录，新增更多导航功能</text>
+            </view>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.5</view>
+                <view class="cu-tag line-white">2020/02/28</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、新增，分享页面</text>
+            </view>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.4</view>
+                <view class="cu-tag line-white">2020/02/16</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、优化，首页封面调整</text>
+            </view>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.3</view>
+                <view class="cu-tag line-white">2020/02/16</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、新增，微信区</text>
+            </view>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.2</view>
+                <view class="cu-tag line-white">2020/02/16</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、优化，图片调整</text>
+            </view>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.1</view>
+                <view class="cu-tag line-white">2020/02/16</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、优化，UI调整</text>
+            </view>
+        </view>
+    </view>
+    <view class="cu-item text-green">
+        <view class="bg-green content shadow">
+            <view class="cu-capsule radius">
+                <view class="cu-tag bg-white text-green">v1.0.0</view>
+                <view class="cu-tag line-white">2020/02/16</view>
+            </view>
+            <view class="margin-top-sm text-content">
+                <text>1、发布，第一款体验版</text>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 技术支持QQ565897782 -->
