@@ -1,1 +1,2 @@
-# WZZLPHB King Battle Effectiveness Small program source code, King Battle Effectiveness Interface, wechat small program King Battle Effectiveness, King Glory Battle Effectiveness Small program.
+# WZZLPHB 
+王者战斗力小程序源代码，王者战斗力界面，微信小程序王者战斗力，王者战斗力小程序 
